@@ -1,0 +1,26 @@
+.light-gray-header {
+  background-color: #f3f4f6;
+}
+
+h1 {
+  color: red;
+  font-weight: 700;
+}
+
+.output-screen {
+  min-height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .5rem;
+  background: #ffffff;
+}
+
+:root[data-bs-theme="dark"] .light-gray-header {
+  background-color: #212529;
+}
+
+:root[data-bs-theme="dark"] .output-screen {
+  background: #2b3035;
+  border-color: #3a3f44;
+  color: #e9ecef;
+}
+/*# sourceMappingURL=style.css.map */
